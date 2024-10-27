@@ -1,0 +1,117 @@
+
+* {
+    --primary-: hsl(195, 85%, 41%);
+    --primary-hover: hsl(195, 80%, 50%);
+}
+
+
+html,
+body {
+    background-image: linear-gradient(180deg, #c4b6fd, #93acfc);
+    color: #555;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar,
+.head-section {
+    background: transparent;
+}
+
+.navbar-brand,
+.text-primary {
+    color: #fff !important;
+}
+
+.nav-link {
+    font-size: 18px !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--primary-hover);
+}
+
+.btn-primary {
+    background-color: #0a58ca !important;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #257dfd !important;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Card and Hover Styles */
+.feature-card {
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 20px rgba(0, 150, 255, 0.75);
+
+}
+
+.feature-icon i {
+    font-size: 2rem;
+}
+
+
+.footer-section,
+.blue-bg {
+    background-color: #0a58ca !important;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.about-text,
+h2.text-primary {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+
+.carousel-item img {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+}
+        
+
+.card-container {
+    padding: 2rem 0;
+}
+
+#contact {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.alert {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
